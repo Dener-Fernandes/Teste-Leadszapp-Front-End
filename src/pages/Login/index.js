@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Input from '../../components/input/index';
 import './style.css';
 import api from '../../services/api';
 import { useHistory } from 'react-router-dom';
@@ -46,7 +45,7 @@ function Login() {
                         <label htmlFor="loginId_id">Email</label>
                         <input type="text" id="loginId_id" name="loginId"/>
                         {emailErrorEmpty && <span>Campo vazio!</span>}&ensp;
-                        {emailErrorNotEmail && <span>E-mail inválido</span>}
+                        {emailErrorNotEmail && <span>E-mail inválido!</span>}
                         <label className="label-password" htmlFor="password_id">Password</label>
                         <input type="text" id="password_id" name="password"/>
                         {passwordErrorEmpty && <span>Campo vazio!</span>}&ensp;

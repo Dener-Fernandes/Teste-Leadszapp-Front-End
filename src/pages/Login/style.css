@@ -1,0 +1,22 @@
+.login-form {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-color:#000000;
+    color: #FFFFFF;
+}
+
+.login-form input[type="submit"] {
+    margin: 20px 0px 0px 25px;
+    width: 206px;
+    height: 35px;
+    background-color:#08DF8C;
+    border-style: none;
+    border-radius: 3px;
+    color: #EBE6E6;
+}
+
+.login-form h5 {
+    margin-left: 25px;
+    text-align: center;
+}

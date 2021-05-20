@@ -1,0 +1,20 @@
+.input-block {
+    color:#FFFFFF;
+    padding: 100px 0px 0px 25px;
+}
+
+.input-block label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.input-block .label-password {
+    margin-top: 15px;
+}
+
+.input-block input {
+    width: 202px;
+    height: 30px;
+    border-style: none;
+    border-radius: 3px;
+}
